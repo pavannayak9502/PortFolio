@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/PortFolio/static/css/main.0c387972.css",
+    "main.js": "/PortFolio/static/js/main.0292bf52.js",
+    "static/js/453.66c7bbcf.chunk.js": "/PortFolio/static/js/453.66c7bbcf.chunk.js",
+    "static/media/image.png": "/PortFolio/static/media/image.11ef05a8566ff6af76ab.png",
+    "static/media/Weather.gif": "/PortFolio/static/media/Weather.e693bbf62ba4ffaecb63.gif",
+    "static/media/ResumeImage.jpeg": "/PortFolio/static/media/ResumeImage.c0f0fad651bc011bb0dc.jpeg",
+    "static/media/typingGif.gif": "/PortFolio/static/media/typingGif.212a22ad1411870fe130.gif",
+    "static/media/demoImage.png": "/PortFolio/static/media/demoImage.bfe49b802e6d82151467.png",
+    "static/media/Resumes.pdf": "/PortFolio/static/media/Resumes.4ba4efc9e223d492caef.pdf",
+    "static/media/CreditValidation.gif": "/PortFolio/static/media/CreditValidation.142ca8bdf1a23a35aaef.gif",
+    "static/media/SmileGif.gif": "/PortFolio/static/media/SmileGif.f361f294cee64d3d6ba1.gif",
+    "static/media/Jokes.gif": "/PortFolio/static/media/Jokes.00a54627566174ec571f.gif",
+    "static/media/Todo.gif": "/PortFolio/static/media/Todo.acbe793f74e864e31bd3.gif",
+    "static/media/NewParticles.webp": "/PortFolio/static/media/NewParticles.de1f98e81edf1419f461.webp",
+    "index.html": "/PortFolio/index.html",
+    "main.0c387972.css.map": "/PortFolio/static/css/main.0c387972.css.map",
+    "main.0292bf52.js.map": "/PortFolio/static/js/main.0292bf52.js.map",
+    "453.66c7bbcf.chunk.js.map": "/PortFolio/static/js/453.66c7bbcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c387972.css",
+    "static/js/main.0292bf52.js"
+  ]
+}
