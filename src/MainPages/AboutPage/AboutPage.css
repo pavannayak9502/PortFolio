@@ -1,0 +1,243 @@
+.forSpace{
+    margin-top: 100px;
+}
+#Header1{
+    position: relative;
+    text-align: center;
+}
+#Paragraph1{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.userIntro{     /* User Introduction */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    box-sizing: border-box;
+    margin-left: 150px;
+}
+#userDemo_Image3{
+    width: 400px;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 75px;
+}
+
+.user_Hobbies{      /* User Hobbies div */
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-left: 200px;
+}
+.Hobbies{   /*  ul */
+    list-style: none;
+    padding: 1px;
+}
+#Paragraph2{    /* Quote Author */
+    margin-left: 200px;
+    font-size: large;
+}
+
+#Header2{   /* Professional Header */
+    margin-top: 30px;
+}
+
+
+.professionalSkills{        /* Skills Div */
+    box-sizing: border-box;
+    margin-top: 30px;
+     padding: 0.5rem;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 0px;
+     row-gap: 40px;
+     justify-content: center;
+     margin-left: 200px;
+}
+.skill{
+    box-sizing: border-box;
+    max-width:120px;
+    padding: 10px;
+    border-radius: 15px;
+    align-self: center;
+    border: 1px solid white;
+}
+.skill:hover{     /* Each skill */
+    cursor: pointer;
+    opacity: 1.0;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    animation: zoom-in-zoom-out 1s;
+    border: 2px dotted red;
+}
+
+@keyframes zoom-in-zoom-out {
+    /* At the beginning of the animation */
+    0% {
+      /* Scale the element to its original size */
+      transform: scale(1, 1);
+      background-color: rgba(6, 7, 6, 0.479);
+    }
+    /* At the middle of the animation */
+    50% {
+      /* Scale the element to 1.5 times its original size */
+      transform: scale(1.5, 1.5);
+      background-color: rgba(12, 12, 12, 0.473);
+    }
+    /* At the end of the animation */
+    100% {
+      /* Scale the element back to its original size */
+      transform: scale(1, 1);
+      background-color: rgba(8, 8, 8, 0.521);
+    }
+  }
+
+
+.Tools{     /* Tools Div */
+    box-sizing: border-box;
+    margin-top: 30px;
+     padding: 0.5rem;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 0px;
+     row-gap: 40px;
+     justify-content: center;
+     margin-left: 200px;
+}
+
+
+
+@media only screen and (max-width:420px){
+
+.forSpace{
+    margin-top: 100px;
+}
+
+#Header1{
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.userIntro{
+    margin-left: 0px;
+    padding: 1rem;
+}
+#userDemo_Image3{
+    width: 250px;
+    margin-left: 50px;
+    padding: 1.5rem;
+    margin-top: 120px;
+}
+.user_Hobbies{
+    margin-top: 180px;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+
+.professionalSkills{        /* Skills Div */
+   box-sizing: border-box;
+   margin-left: 55px;
+   margin-top: 30px;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    row-gap: 40px;
+    justify-content: center;
+    max-width:400px;
+    height:100%;
+
+}
+.skill{ /* Each skill */
+    box-sizing: border-box;
+    max-width:120px;
+    padding: 10px;
+    border-radius: 15px;
+    align-self: center;
+}
+.skill:hover{     /* Each skill hover effect */
+    cursor: pointer;
+    opacity: 1.0;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    animation: zoom-in-zoom-out 1s;
+}
+
+@keyframes zoom-in-zoom-out {
+    /* At the beginning of the animation */
+    0% {
+      /* Scale the element to its original size  */
+      transform: scale(1, 1);
+      background-color: rgba(0, 128, 0, 0.479);
+    }
+    /* At the middle of the animation */
+    50% {
+      /* Scale the element to 1.5 times its original size */
+      transform: scale(1.5, 1.5);
+      background-color: rgba(0, 128, 0, 0.473);
+    }
+    /* At the end of the animation */
+    100% {
+      /* Scale the element back to its original size */
+      transform: scale(1, 1);
+      background-color: rgba(0, 128, 0, 0.521);
+    }
+  }
+
+
+.Tools{     /* Tools Div */
+box-sizing: border-box;
+margin-left: 55px;
+margin-top: 15px;
+ padding: 0.5rem;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+ gap: 10px;
+ row-gap: 40px;
+ justify-content: center;
+ max-width:400px;
+ height:100%;
+}
+
+
+};
+
+
+
+
+/*
+
+.userIntro{     /* User Introduction 
+padding: 1rem;
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+box-sizing: border-box;
+}
+
+#userDemo_Image3{
+    width: 250px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+        /* For Paragraph keep normal fit. 
+
+
+.user_Hobbies{      /* User Hobbies div 
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.Hobbies{   /*  ul 
+    list-style: none;
+    padding: 1px;
+}
+
+*/

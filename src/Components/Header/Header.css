@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+}
+nav{
+    background-color: transparent;
+}
+nav ul{
+    width: auto;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav .Link{
+    height: 100%;
+    padding: 0px 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: large;
+}
+nav a{      /* Center the Menu and Close Icon(sideBar) */
+    height: 100%;
+    padding: 0px 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#link{  /* Home Icon to left side */
+    margin-left: 0px;
+}
+
+nav a:hover{
+    background-color: rgba(255, 182, 193, 0.397);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+nav .Link:hover{
+    background-color: rgba(255, 182, 193, 0.397);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.menu-button{ /* Hide menu icon(☰) on bigger screen */
+    display: none;
+}
+
+
+    /*  Tab & Mobile Resolution */
+.sideBar{
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 200px;
+   height: 100vh;
+   z-index: 999;
+   background-color: rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur(10px);
+   display: none;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+.closeIcon{     /* Close Icon position in side bar*/ 
+    margin-left: 122px;
+    display: flex;
+    justify-self: center;
+}
+.sideBar li{
+    width: 100%;
+}
+
+
+@media(max-width: 786px){
+    .hideOnMobile{ /* Hide  bigger navigation links on smaller screen and use menu icon(☰)*/
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+};

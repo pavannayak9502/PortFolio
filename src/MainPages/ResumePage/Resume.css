@@ -1,0 +1,54 @@
+.SPACE{ /* Top margin space */
+    margin-top: 50px;
+}
+
+#pdfButton{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+#pdfButton:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.pdfViewer{
+    box-sizing: border-box;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+  
+#resume{
+    margin: auto;
+    box-sizing: border-box;
+    width: 800px;
+}
+
+@media (max-width: 420px) {
+    .pdfViewer{
+      height: auto;
+    }
+    #resume{
+        box-sizing: border-box;
+        margin: auto;
+        width: 350px;
+    }
+};
+
+@media (max-width: 768px) {
+    #resume{
+        box-sizing: border-box;
+        margin: auto;
+        width: 700px;
+        height: auto;
+    }
+};

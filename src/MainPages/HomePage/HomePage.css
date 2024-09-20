@@ -1,0 +1,507 @@
+.intro{ /* About typing and intro */
+    margin-top: 150px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    row-gap: 20px;
+    position: relative;
+}
+#userDemo_Image1{   /* Demo Img */
+    max-width: 550px;
+    padding: 1rem;
+    position: absolute;
+    margin-top: -95px;
+    margin-left: 350px;
+    border-radius: 50px;
+    box-shadow:
+    inset 0 -3em 3em rgba(211, 176, 209, 0.041),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(54, 47, 47, 0.6);
+}
+
+.introDetails{  /* Details */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    row-gap: 20px;
+    position: relative;
+    margin-top: 350px;
+}
+#userDemo_Image2{       /* User Image */
+    padding: 1rem;
+    width: 150.106977px;
+    height: 180.406452px;
+    border-radius: 40%;
+    box-shadow:
+    inset 0 -3em 3em rgba(211, 176, 209, 0.041),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(54, 47, 47, 0.6);
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 550px;
+}
+
+.socialLinks{   /* social Links */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.Link{  /* ul class links */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.Link li{   /*list li of each link */
+    padding: 0px 15px;
+    font-size:xx-large;
+    margin: 0px 5px;
+    border-radius: 25%;
+    background-color: black;
+    box-shadow:
+    inset 0 -3em 3em rgba(211, 176, 209, 0.041),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(54, 47, 47, 0.6);
+}
+.fa-github{ /* github font */
+    color: white;
+    text-align: center;
+    margin: 5px 0px;
+    border-radius: 50%;
+}
+.fa-linkedin-in{   /* linkedin font */
+    color:white;
+    text-align: center;
+    margin: 5px 0px;
+}
+.fa-x-twitter{   /* x font */
+    color: white;
+    text-align: center;
+    margin: 5px 0px;
+}
+.fa-instagram{   /* instagram font */
+    color: white;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#link1:hover{ /* github font */
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+#link2:hover{ /* linked in font */
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+#link3:hover{ /* x font */
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}#link4:hover{ /* instagram font */
+    color: white;
+    background: linear-gradient(
+    to right,
+    #833ab4,#fd1d1d,#fcb045
+  );
+    cursor: pointer;
+}
+
+/*  Mobile */
+
+@media only screen and (max-width:420px){
+    .Home{
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .intro{
+        margin-top: 100px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        row-gap: 20px;
+    }
+    #userDemo_Image1{   /* Demo Img */
+        width: 300px;
+        padding: 1rem;
+        position: absolute;
+        margin-top: 225px;
+        margin-left: 0px;
+        box-sizing: border-box;
+    }
+    #h1Header4{
+        font-size: medium;
+        text-align: center;
+    }
+
+    .introDetails{  /* Details */
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        margin-left: 50px;
+    }
+    
+    #userDemo_Image2{   /* user Image  change the image syntax to the last paragraph. */
+    padding: 1rem; 
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+    box-shadow:
+    inset 0 -3em 3em rgba(211, 176, 209, 0.041),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(54, 47, 47, 0.6);
+
+    box-sizing: border-box;
+    margin-top: 285px;
+    margin-left: 0px;
+    align-self: center;
+    }
+    
+
+    .space{ /* For user image position. */
+        margin-top: 210px;
+    }
+    
+    .socialLinks{   /* social Links */
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .Link{  /* ul class links */
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .Link li{   /*list li of each link */
+        padding: 0px 15px;
+        font-size:xx-large;
+        margin: 0px 5px;
+        border-radius: 25%;
+        background-color: black;
+        box-shadow:
+        inset 0 -3em 3em rgba(211, 176, 209, 0.041),
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgba(54, 47, 47, 0.6);
+    }
+    .fa-github{ /* github font */
+        color: white;
+        text-align: center;
+        margin: 5px 0px;
+        border-radius: 50%;
+    }
+    .fa-linkedin-in{   /* linkedin font */
+        color:white;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .fa-x-twitter{   /* x font */
+        color: white;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .fa-instagram{   /* instagram font */
+        color: white;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    
+    #link1:hover{ /* github font */
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    #link2:hover{ /* linked in font */
+        color: white;
+        background-color: blue;
+        cursor: pointer;
+    }
+    #link3:hover{ /* x font */
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }#link4:hover{ /* instagram font */
+        color: white;
+        background: linear-gradient(
+        to right,
+        #833ab4,#fd1d1d,#fcb045
+      );
+        cursor: pointer;
+    }    
+    
+    
+    };
+
+
+
+@media only screen and (max-width:835px){
+    .Home{
+        position: relative;
+    }
+    .intro{ /* About typing and intro */
+        margin-top: 150px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        row-gap: 20px;
+    }
+    #userDemo_Image1{   /* Demo Img */
+        width: 300px;
+        padding: 1rem;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 0px;
+        box-sizing: border-box;
+    }
+    
+    #h1Header4{
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .introDetails{  /* Details */
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        row-gap: 20px;
+    }
+    #userDemo_Image2{
+        padding: 1rem;
+        width: 200px;
+        height: 250px;
+        border-radius: 10%;
+        box-shadow:
+        inset 0 -3em 3em rgba(211, 176, 209, 0.041),
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgba(54, 47, 47, 0.6);
+        
+        box-sizing: border-box;
+        margin-top: 250px;
+        margin-left: 0px;
+        align-self: center;
+    
+    }
+
+    .space{ /* For user image position. */
+        margin-top: 300px;
+    }
+    
+    .socialLinks{   /* social Links */
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        row-gap: 20px;
+        align-items: center;
+    }
+    
+    .Link{  /* ul class links */
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .Link li{   /*list li of each link */
+        padding: 0px 15px;
+        font-size:xx-large;
+        margin: 0px 5px;
+        border-radius: 25%;
+        background-color: black;
+        box-shadow:
+        inset 0 -3em 3em rgba(211, 176, 209, 0.041),
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgba(54, 47, 47, 0.6);
+    }
+    .fa-github{ /* github font */
+        color: white;
+        text-align: center;
+        margin: 5px 0px;
+        border-radius: 50%;
+    }
+    .fa-linkedin-in{   /* linkedin font */
+        color:white;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .fa-x-twitter{   /* x font */
+        color: white;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .fa-instagram{   /* instagram font */
+        color: white;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    
+    #link1:hover{ /* github font */
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    #link2:hover{ /* linked in font */
+        color: white;
+        background-color: blue;
+        cursor: pointer;
+    }
+    #link3:hover{ /* x font */
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }#link4:hover{ /* instagram font */
+        color: white;
+        background: linear-gradient(
+        to right,
+        #833ab4,#fd1d1d,#fcb045
+      );
+        cursor: pointer;
+    }    
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+Tab resolution 
+
+
+
+
+
+
+.intro{ / About typing and intro 
+margin-top: 150px;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+margin-left: 100px;
+row-gap: 20px;
+}
+#userDemo_Image1{   / Demo Img 
+width: 450px;
+padding: 1rem;
+}
+
+.introDetails{  / Details 
+padding: 1rem;
+display: flex;
+flex-direction: column;
+margin-left: 100px;
+row-gap: 20px;
+}
+#userDemo_Image2{
+padding: 1rem;
+width: 180.106977px;
+height: 252.406452px;
+border-radius: 50%;
+box-shadow:
+inset 0 -3em 3em rgba(211, 176, 209, 0.041),
+0 0 0 2px white,
+0.3em 0.3em 1em rgba(54, 47, 47, 0.6);
+}
+
+.socialLinks{   / social Links 
+padding: 1rem;
+display: flex;
+flex-direction: column;
+margin-left: 100px;
+row-gap: 20px;
+align-items: center;
+}
+
+.Link{  / ul class links 
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+.Link li{   / list li of each link 
+padding: 0px 15px;
+font-size:xx-large;
+margin: 0px 5px;
+border-radius: 25%;
+background-color: black;
+box-shadow:
+inset 0 -3em 3em rgba(211, 176, 209, 0.041),
+0 0 0 2px white,
+0.3em 0.3em 1em rgba(54, 47, 47, 0.6);
+}
+.fa-github{ / github font 
+color: white;
+text-align: center;
+margin: 5px 0px;
+border-radius: 50%;
+}
+.fa-linkedin-in{   / linkedin font 
+color:white;
+text-align: center;
+margin: 5px 0px;
+}
+.fa-x-twitter{   / x font 
+color: white;
+text-align: center;
+margin: 5px 0px;
+}
+.fa-instagram{   / instagram font 
+color: white;
+text-align: center;
+margin: 5px 0px;
+}
+
+#link1:hover{ / github font 
+color: white;
+background-color: black;
+cursor: pointer;
+}
+#link2:hover{ / linked in font 
+color: white;
+background-color: blue;
+cursor: pointer;
+}
+#link3:hover{ / x font 
+color: white;
+background-color: black;
+cursor: pointer;
+}
+
+#link4:hover{ / instagram font 
+color: white;
+background: linear-gradient(
+to right,
+#833ab4,#fd1d1d,#fcb045
+);
+cursor: pointer;
+}
+
+
+
+
+*/
