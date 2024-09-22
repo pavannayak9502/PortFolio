@@ -39,17 +39,23 @@ nav a{      /* Center the Menu and Close Icon(sideBar) */
     margin-left: 0px;
 }
 
+/*
 nav a:hover{
     background-color: rgba(255, 182, 193, 0.397);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+*/
+
 nav li:first-child{
     margin-right: auto;
 }
+
+/*
 nav .Link:hover{
     background-color: rgba(255, 182, 193, 0.397);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+*/
 
 .menu-button{ /* Hide menu icon(☰) on bigger screen */
     display: none;
@@ -79,9 +85,54 @@ nav .Link:hover{
 .sideBar li{
     width: 100%;
 }
+    /* Link Hover text underline  */
+.Me::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;    
+}
+#Me1:hover::after{
+    width: 44px;
+    transition: all 0.3s;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9, white);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9, white);
+}
+#Me2:hover::after{
+    width: 45px;
+    transition: all 0.3s;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9, white);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9, white);
+}
+#Me3:hover::after{
+    width: 58px;
+    transition: all 0.3s;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9, white);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9, white);
+}
+#Me4:hover::after{
+    width: 58px;
+    transition: all 0.3s;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9, white);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9, white);
+}
 
 
 @media(max-width: 786px){
+   
+    .Text{  /*  Link Text    */
+        color: black;
+    }
+    nav .Link:hover{
+        background-color: white;
+        box-shadow: rgba(106, 106, 236, 0.514) 0px 30px 60px -12px inset, rgba(235, 62, 62, 0.568) 0px 18px 36px -18px inset;
+    }
+
+    nav a:hover{
+        background-color: white;
+        box-shadow: rgba(158, 158, 236, 0.699) 0px 30px 60px -12px inset, rgba(223, 42, 42, 0.685) 0px 18px 36px -18px inset;
+    }
+   
     .hideOnMobile{ /* Hide  bigger navigation links on smaller screen and use menu icon(☰)*/
         display: none;
     }

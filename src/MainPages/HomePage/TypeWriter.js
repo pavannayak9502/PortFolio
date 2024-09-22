@@ -7,9 +7,9 @@ let Type=()=>{
         <>
         <TypeWriter options={{
             strings:[
-                "Frontend Developer",
-                "Mern Stack Developer",
-                "Web Developer",
+                "Frontend Developer !",
+                "Mern Stack Developer !",
+                "Web Developer !",
                 "FreeLancer !"
             ],
             autoStart: true,

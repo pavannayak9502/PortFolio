@@ -10,7 +10,7 @@
     padding: 1rem;
 }
 
-.projects{      /* Projects Div  */
+.projects{      /* Complete Projects Div  */
     margin-top: 50px;
     padding: 1rem;
     display: grid;
@@ -19,26 +19,27 @@
     justify-content: center;
     margin: 0px 150px
 }
-#project{  /* Weather Project */
+#project{  /* Project 1 to 4 */
     border: 2px dotted white;
     padding: 1rem;
     max-width: 350px;
     text-align: center;
     border-radius: 20px;
+    box-shadow: rgba(170, 33, 118, 0.2) 0px 7px 9px 8px;
 }
 
 
-#projectImage{ /* Weather Image */
+#projectImage{ /* Project Image 1 to 4 */
     box-sizing: border-box;
     max-width: 320px;
     padding: 1rem;
     height: 200px;
     border-radius: 30px;
 }
-#description{   /* Weather Introduction Div */
+#description{   /* project Introduction Div */
     padding: 1rem;
 }
-#head2{ /* Weather Header */
+#head2{ /* Project Header */
     color: red;
     text-align: center;
     font-size: larger;
@@ -47,7 +48,7 @@
 #Para2{
     padding: 1rem; 
 }
-.githubLink{   /* Weather Link (Github page & Live Site)  */ 
+.githubLink{   /* Project Link (Github page & Live Site)  */ 
     text-decoration: none;
     background-color: transparent;
     border: 2px solid red;
@@ -69,14 +70,14 @@
     border-radius: 10px;
 }
 
-.Project:hover{       /* project class for all projects  */
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+#project:hover{       /* project class for all projects  */
+    box-shadow: rgba(218, 17, 141, 0.623) 0px 7px 9px 10px;
 }
 
 
 @media only screen and (max-width: 420px){
 
-    .projects{      /* Projects Div  */
+    .projects{      /* Complete Projects Div  */
         margin-top: 50px;
         padding: 1rem;
         display: grid;
@@ -86,7 +87,7 @@
         box-sizing: border-box;
         }
         
-        #project{  /* Weather Project */
+        #project{  /*  Project div */
         border: 2px dotted white;
         padding: 1rem;
         max-width: 380px;
@@ -94,7 +95,7 @@
         }
         
         
-        #projectImage{ /* Weather Image */
+        #projectImage{ /* Project Image */
         box-sizing: border-box;
         max-width: 295px;
         padding: 1rem;
@@ -102,11 +103,11 @@
         border-radius: 30px;
         }
         
-        #description{   /* Weather Introduction Div */
+        #description{   /* Project Introduction Div */
         padding: 1rem;
         }
         
-        #head2{ /* Weather Header */
+        #head2{ /* Project Header */
         color: red;
         text-align: center;
         font-size: larger;
@@ -117,7 +118,7 @@
         padding: 1rem; 
         }
         
-        .githubLink{   /* Weather Link (Github page & Live Site)  */
+        .githubLink{   /* Project Link (Github page & Live Site)  */
         text-decoration: none;
         background-color: transparent;
         color:#ffffff;
@@ -143,7 +144,7 @@
         }
         
         .Project:hover{       /* project class for all projects */ 
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            box-shadow: rgba(218, 17, 141, 0.623) 0px 7px 9px 10px;
         }
 }
 

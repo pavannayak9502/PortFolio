@@ -3,7 +3,7 @@ import "../HomePage/HomePage.css";
 import SmileGif from "../../Components/Images/SmileGif.gif";
 import Type from "./TypeWriter"; /*Must and should install it in your node package.*/
 import typingGif from "../../Components/Images/typingGif.gif";
-import image from "../../Components/Images/image.png";
+import userAvator from "../../Components/Images/userAvatar.png";
 
 let Home=()=>{
 
@@ -14,12 +14,12 @@ let Home=()=>{
             <div className="intro">
             <h1>Hi There! <span><img src={SmileGif} alt="smileImage" width="60px" height="60px" style={{background:"transparent", marginBottom:"-15px"}}/></span></h1>
             <h1>I'M <span style={{color:"red"}}>LAVORI PAVAN</span></h1>
-            <h1><Type /></h1>
+            <h1 id="typing"><Type /></h1>
             <img src={typingGif} alt="homepage_Image" id="userDemo_Image1"/>
             </div>
 
             <div className="introDetails">
-            <img src={image} alt="User-Avatar-Image" className="userImg" id="userDemo_Image2"/>
+            <img src={userAvator} alt="User-Avatar-Image" className="userImg" id="userDemo_Image2"/>
             <h1 id="h1Header4">LET ME <span style={{color:"red"}}>INTRODUCE</span> MYSELF</h1>
             <p>I fell in love with programming and I have at least learnt something, I think  🤷‍♂️</p>
             <p>I am fluent in classics like <span style={{color:"red"}}>Java</span> and <span style={{color:"red"}}>javaScript.</span></p>
