@@ -8,8 +8,8 @@ let Type = () => {
         options={{
           strings: [
             "Frontend Developer !",
+            "Full Stack Web Developer !",
             "Mern Stack Developer !",
-            "Web Developer !",
             "FreeLancer !",
           ],
           autoStart: true,

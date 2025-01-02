@@ -16,9 +16,12 @@ let Home = () => {
               <img
                 src={SmileGif}
                 alt="smileImage"
-                width="60px"
-                height="60px"
-                style={{ background: "transparent", marginBottom: "-15px" }}
+                width="100px"
+                height="120px"
+                style={{
+                  background: "transparent",
+                  marginBottom: "-40px",
+                }}
               />
             </span>
           </h1>
@@ -52,23 +55,27 @@ let Home = () => {
           </p>
           <p>
             My field of Interet's are building new{" "}
-            <span style={{ color: "red" }}> Web Technologies</span> and in{" "}
-            <span style={{ color: "red" }}>Products.</span>
+            <span style={{ color: "red" }}> Full Stack Web Technologies</span>{" "}
+            and in <span style={{ color: "red" }}>Frontend Technologies.</span>
           </p>
           <p>
-            Whenever possible, I also apply my passion for developing products
-            with <span style={{ color: "red" }}>Node.js</span> and modern{" "}
-            <span style={{ color: "red" }}>Javascript Library</span> and{" "}
+            Whenever possible, I also apply my passion for developing the
+            products with <span style={{ color: "red" }}>Node.js</span> and
+            modern <span style={{ color: "red" }}>Javascript Library</span> and{" "}
             <span style={{ color: "red" }}>Frameworks</span> like{" "}
             <span style={{ color: "red" }}>React.js</span>
           </p>
         </div>
 
+        <div>
+          <img src={userAvator} alt="User-Avatar-Image" id="userMobileImg" />
+        </div>
+
         <div className="space"></div>
 
         <div className="socialLinks">
-          <h1 style={{ color: "green" }}>FIND ME ON</h1>
-          <p>
+          <h1 style={{ color: "yellow" }}>FIND ME ON</h1>
+          <p style={{ fontWeight: 800 }}>
             Feel free to <span style={{ color: "red" }}>connect</span> with me.
           </p>
           <div className="Links">
