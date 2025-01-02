@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.08bd9715.css",
-    "main.js": "/PortFolio/static/js/main.1f1b6ee1.js",
+    "main.css": "/PortFolio/static/css/main.44298110.css",
+    "main.js": "/PortFolio/static/js/main.fb06c313.js",
     "static/js/453.66c7bbcf.chunk.js": "/PortFolio/static/js/453.66c7bbcf.chunk.js",
-    "static/media/Resume.png": "/PortFolio/static/media/Resume.bc800d44957cbd1769c7.png",
+    "static/media/Chat.gif": "/PortFolio/static/media/Chat.6b10475593af9c23d744.gif",
+    "static/media/Resume.png": "/PortFolio/static/media/Resume.e3836bb204310131b1ef.png",
     "static/media/Weather.gif": "/PortFolio/static/media/Weather.e693bbf62ba4ffaecb63.gif",
-    "static/media/Lavori-Pavan-Resume.pdf": "/PortFolio/static/media/Lavori-Pavan-Resume.8752574e89e599bcc071.pdf",
+    "static/media/SmileGif.gif": "/PortFolio/static/media/SmileGif.a783dfda6fad3197bf59.gif",
+    "static/media/Lavori-Pavan-Resume.pdf": "/PortFolio/static/media/Lavori-Pavan-Resume.6f6179a4c7b8c88e91b8.pdf",
     "static/media/typingGif.gif": "/PortFolio/static/media/typingGif.212a22ad1411870fe130.gif",
     "static/media/userAvatar.png": "/PortFolio/static/media/userAvatar.00d845f554fa7ec83295.png",
     "static/media/demoImage.png": "/PortFolio/static/media/demoImage.bfe49b802e6d82151467.png",
     "static/media/CreditValidation.gif": "/PortFolio/static/media/CreditValidation.142ca8bdf1a23a35aaef.gif",
-    "static/media/SmileGif.gif": "/PortFolio/static/media/SmileGif.f361f294cee64d3d6ba1.gif",
     "static/media/Jokes.gif": "/PortFolio/static/media/Jokes.00a54627566174ec571f.gif",
     "static/media/Todo.gif": "/PortFolio/static/media/Todo.acbe793f74e864e31bd3.gif",
     "static/media/NewParticles.webp": "/PortFolio/static/media/NewParticles.de1f98e81edf1419f461.webp",
     "index.html": "/PortFolio/index.html",
-    "main.08bd9715.css.map": "/PortFolio/static/css/main.08bd9715.css.map",
-    "main.1f1b6ee1.js.map": "/PortFolio/static/js/main.1f1b6ee1.js.map",
+    "main.44298110.css.map": "/PortFolio/static/css/main.44298110.css.map",
+    "main.fb06c313.js.map": "/PortFolio/static/js/main.fb06c313.js.map",
     "453.66c7bbcf.chunk.js.map": "/PortFolio/static/js/453.66c7bbcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08bd9715.css",
-    "static/js/main.1f1b6ee1.js"
+    "static/css/main.44298110.css",
+    "static/js/main.fb06c313.js"
   ]
 }
