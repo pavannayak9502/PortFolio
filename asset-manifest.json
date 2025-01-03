@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PortFolio/static/css/main.44298110.css",
-    "main.js": "/PortFolio/static/js/main.fb06c313.js",
+    "main.js": "/PortFolio/static/js/main.68decde1.js",
     "static/js/453.66c7bbcf.chunk.js": "/PortFolio/static/js/453.66c7bbcf.chunk.js",
     "static/media/Chat.gif": "/PortFolio/static/media/Chat.6b10475593af9c23d744.gif",
-    "static/media/Resume.png": "/PortFolio/static/media/Resume.e3836bb204310131b1ef.png",
     "static/media/Weather.gif": "/PortFolio/static/media/Weather.e693bbf62ba4ffaecb63.gif",
     "static/media/SmileGif.gif": "/PortFolio/static/media/SmileGif.a783dfda6fad3197bf59.gif",
-    "static/media/Lavori-Pavan-Resume.pdf": "/PortFolio/static/media/Lavori-Pavan-Resume.6f6179a4c7b8c88e91b8.pdf",
+    "static/media/Lavori-Pavan-Resume.pdf": "/PortFolio/static/media/Lavori-Pavan-Resume.3fc830aef46842f31c91.pdf",
+    "static/media/Resume.png": "/PortFolio/static/media/Resume.0edbf26dac46dd161567.png",
     "static/media/typingGif.gif": "/PortFolio/static/media/typingGif.212a22ad1411870fe130.gif",
     "static/media/userAvatar.png": "/PortFolio/static/media/userAvatar.00d845f554fa7ec83295.png",
     "static/media/demoImage.png": "/PortFolio/static/media/demoImage.bfe49b802e6d82151467.png",
@@ -17,11 +17,11 @@
     "static/media/NewParticles.webp": "/PortFolio/static/media/NewParticles.de1f98e81edf1419f461.webp",
     "index.html": "/PortFolio/index.html",
     "main.44298110.css.map": "/PortFolio/static/css/main.44298110.css.map",
-    "main.fb06c313.js.map": "/PortFolio/static/js/main.fb06c313.js.map",
+    "main.68decde1.js.map": "/PortFolio/static/js/main.68decde1.js.map",
     "453.66c7bbcf.chunk.js.map": "/PortFolio/static/js/453.66c7bbcf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44298110.css",
-    "static/js/main.fb06c313.js"
+    "static/js/main.68decde1.js"
   ]
 }
